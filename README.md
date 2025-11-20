@@ -1,25 +1,76 @@
-# cancelledflight
-Uçak Bileti İptal Tahmin Sistemi: Gelir Optimizasyonu için Makine Öğrenmesi Yaklaşımı
+1. Uçuş İptal Tahmin Sistemi
 
-1. Aşama: Problem Tanımı ve Veri Seçimi
+Bu proje, uçak bileti rezervasyonlarının iptal edilip edilmeyeceğini tahmin etmek amacıyla geliştirilmiş uçtan uca bir makine öğrenmesi çözümüdür. Havayolu şirketlerinin gelir tahmini, koltuk optimizasyonu ve müşteri memnuniyeti stratejilerine katkı sağlamayı hedefler.
 
-Problem:
-Havayolu şirketleri, rezervasyonların iptal edilip edilmeyeceğini önceden tahmin ederek koltuk planlaması, overbooking stratejileri ve gelir tahminlerini optimize edebilir. Bu projede, geçmiş rezervasyon verilerine dayanarak bir biletin iptal edilip edilmeyeceğini tahmin eden bir model geliştirilecek.
+***
 
-Veri Seti: Flight Delay and Cancellation Dataset (2018–2022)
-•	Kaynak: Kaggle – robikscube/flight-delay-dataset-20182022
-•	Veri Türü: Gerçek uçuş verileri (ABD iç hatlar)
-•	Boyut: 4GB+ (büyük hacimli, gerçekçi)
+1.1 Proje Kapsamı
 
-•	Özellikler:
-•	Uçuş tarihi, kalkış/saat bilgileri
-•	Havayolu, kalkış-varış havalimanı
-•	Gecikme süresi, iptal durumu, iptal nedeni
-•	Uçuş mesafesi, uçuş süresi, taşıyıcı kodu
+Bu proje, [Zero2End Machine Learning Bootcamp](https://github.com/Developer-MultiGroup) kapsamında gerçekleştirilmiştir. Gerçek uçuş verileri kullanılarak iptal tahmini yapılmış, modelin her adımı dokümante edilmiştir.
 
-Bu veri seti, iptal tahmini için çok uygun çünkü:
-•	Sentetik değil, gerçek FAA (Federal Aviation Administration) verilerine dayanıyor.
-•	Zengin özellik seti içeriyor (20+ sütun).
-•	Yüksek hacimli (milyonlarca satır), bu da modelin genelleme gücünü artırır.
-•	İptal bilgisi ve nedenleri mevcut, bu da sınıflandırma için ideal.
+***
 
+1.2 Problem Tanımı
+
+Havayolu şirketleri, rezervasyonların iptal edilip edilmeyeceğini önceden tahmin ederek overbooking stratejileri ve gelir planlaması yapabilir. Bu projede, geçmiş uçuş verilerine dayanarak bir rezervasyonun iptal edilme olasılığı tahmin edilmektedir.
+
+***
+
+1.3 Kullanılan Veri Seti
+
+- **Kaynak:** [Kaggle – Flight Delay and Cancellation Dataset (2018–2022)](https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022)
+- **Format:** Tabular (.csv)
+- **Boyut:** 4M+ satır, 20+ özellik
+- **Sentetik değil**, gerçek FAA verilerine dayalıdır.
+
+---
+
+1.4 Kullanılan Teknolojiler
+
+- Python, Pandas, Scikit-learn, XGBoost, SHAP
+- Streamlit (arayüz)
+- joblib (model kaydı)
+- Git, VSCode, Jupyter Notebook
+
+***
+
+1.5 Proje Yapısı
+
+flight-cancellation-prediction/ 
+├── data/ # Veri dosyaları 
+├── notebooks/ # EDA, baseline, feature eng, model opt, evaluation, pipeline 
+├── src/ # config.py, pipeline.py, inference.py, app.py 
+├── models/ # Eğitilmiş model dosyası 
+├── docs/ # Markdown dokümantasyonları 
+├── README.md 
+└── requirements.txt
+
+***
+
+1.6 Ekran Görüntüsü
+
+<img width="1024" height="1024" alt="a screenshot-style m" src="https://github.com/user-attachments/assets/9bf9e5e4-4528-47f1-afe3-f00fd5ab9e41" />
+
+
+***
+
+1.7 Local Kurulum
+
+```bash
+git clone https://github.com/eceserka/flight-cancellation-prediction.git
+cd flight-cancellation-prediction
+pip install -r requirements.txt
+streamlit run src/app.py
+
+Öne Çıkan Belgeler
+•	docs/eda_findings.md: Veri analizi bulguları
+•	docs/baseline_docs.md: İlk model ve skorlar
+•	docs/feature_eng_docs.md: Türetilen değişkenler
+•	docs/model_opt_docs.md: Hiperparametre optimizasyonu
+•	docs/evaluation_docs.md: SHAP ve iş uyumu
+•	docs/final_pipeline_docs.md: Final pipeline açıklaması
+
+
+İletişim
+Ece – LinkedIn
+Proje hakkında sorularınız için iletişime geçebilirsiniz.
