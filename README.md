@@ -3,10 +3,10 @@ Uçak Bileti İptal Tahmin Sistemi: Gelir Optimizasyonu için Makine Öğrenmesi
 
 1. Aşama: Problem Tanımı ve Veri Seçimi
 
-🎯 Problem:
+Problem:
 Havayolu şirketleri, rezervasyonların iptal edilip edilmeyeceğini önceden tahmin ederek koltuk planlaması, overbooking stratejileri ve gelir tahminlerini optimize edebilir. Bu projede, geçmiş rezervasyon verilerine dayanarak bir biletin iptal edilip edilmeyeceğini tahmin eden bir model geliştirilecek.
 
-✈️ Veri Seti: Flight Delay and Cancellation Dataset (2018–2022)
+Veri Seti: Flight Delay and Cancellation Dataset (2018–2022)
 •	Kaynak: Kaggle – robikscube/flight-delay-dataset-20182022
 •	Veri Türü: Gerçek uçuş verileri (ABD iç hatlar)
 •	Boyut: 4GB+ (büyük hacimli, gerçekçi)
