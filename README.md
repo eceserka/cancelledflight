@@ -71,6 +71,7 @@ streamlit run src/app.py
 •	docs/final_pipeline_docs.md: Final pipeline açıklaması
 
 
-İletişim
+
+*** İletişim ***
 Ece – LinkedIn
 Proje hakkında sorularınız için iletişime geçebilirsiniz.
