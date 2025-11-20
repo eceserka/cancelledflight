@@ -61,29 +61,21 @@ git clone https://github.com/eceserka/flight-cancellation-prediction.git
 cd flight-cancellation-prediction
 pip install -r requirements.txt
 streamlit run src/app.py
+```
 
-Öne Çıkan Belgeler
+1.8 Öne Çıkan Belgeler
 •	docs/eda_findings.md: Veri analizi bulguları
 •	docs/baseline_docs.md: İlk model ve skorlar
 •	docs/feature_eng_docs.md: Türetilen değişkenler
 •	docs/model_opt_docs.md: Hiperparametre optimizasyonu
 •	docs/evaluation_docs.md: SHAP ve iş uyumu
 •	docs/final_pipeline_docs.md: Final pipeline açıklaması
-```
-
-
-1.8 Belgeler
-- docs/eda_findings.md
-- docs/baseline_docs.md
-- docs/feature_eng_docs.md
-- docs/model_opt_docs.md
-- docs/evaluation_docs.md
-- docs/final_pipeline_docs.md
 
 
 *** İletişim ***
-Ece ŞERKA
-[LinkedIn Profilim](https://www.linkedin.com/in/eceserka)
+•	Ece ŞERKA
+•	[LinkedIn Profilim](https://www.linkedin.com/in/eceserka)
+
 
 
 
