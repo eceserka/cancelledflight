@@ -69,10 +69,10 @@ streamlit run src/app.py
 •	docs/model_opt_docs.md: Hiperparametre optimizasyonu
 •	docs/evaluation_docs.md: SHAP ve iş uyumu
 •	docs/final_pipeline_docs.md: Final pipeline açıklaması
+```
 
 
-
-Belgeler
+1.8 Belgeler
 - docs/eda_findings.md
 - docs/baseline_docs.md
 - docs/feature_eng_docs.md
@@ -80,10 +80,10 @@ Belgeler
 - docs/evaluation_docs.md
 - docs/final_pipeline_docs.md
 
+
 *** İletişim ***
 Ece ŞERKA
 [LinkedIn Profilim](https://www.linkedin.com/in/eceserka)
 
 
-***
 
