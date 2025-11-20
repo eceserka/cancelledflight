@@ -56,7 +56,6 @@ flight-cancellation-prediction/
 
 1.7 Local Kurulum
 
-```bash
 git clone https://github.com/eceserka/flight-cancellation-prediction.git
 cd flight-cancellation-prediction
 pip install -r requirements.txt
@@ -73,5 +72,5 @@ streamlit run src/app.py
 
 
 *** İletişim ***
-Ece – LinkedIn
+Ece ŞERKA – [LinkedIn](https://www.linkedin.com/in/eceserka)
 Proje hakkında sorularınız için iletişime geçebilirsiniz.
