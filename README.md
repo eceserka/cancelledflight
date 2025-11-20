@@ -56,6 +56,7 @@ flight-cancellation-prediction/
 
 1.7 Local Kurulum
 
+```bash
 git clone https://github.com/eceserka/flight-cancellation-prediction.git
 cd flight-cancellation-prediction
 pip install -r requirements.txt
@@ -71,6 +72,18 @@ streamlit run src/app.py
 
 
 
+Belgeler
+- docs/eda_findings.md
+- docs/baseline_docs.md
+- docs/feature_eng_docs.md
+- docs/model_opt_docs.md
+- docs/evaluation_docs.md
+- docs/final_pipeline_docs.md
+
 *** İletişim ***
-Ece ŞERKA – [LinkedIn](https://www.linkedin.com/in/eceserka)
-Proje hakkında sorularınız için iletişime geçebilirsiniz.
+Ece ŞERKA
+[LinkedIn Profilim](https://www.linkedin.com/in/eceserka)
+
+
+***
+
