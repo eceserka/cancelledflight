@@ -2,6 +2,7 @@
 Uçak Bileti İptal Tahmin Sistemi: Gelir Optimizasyonu için Makine Öğrenmesi Yaklaşımı
 
 1. Aşama: Problem Tanımı ve Veri Seçimi
+
 🎯 Problem:
 Havayolu şirketleri, rezervasyonların iptal edilip edilmeyeceğini önceden tahmin ederek koltuk planlaması, overbooking stratejileri ve gelir tahminlerini optimize edebilir. Bu projede, geçmiş rezervasyon verilerine dayanarak bir biletin iptal edilip edilmeyeceğini tahmin eden bir model geliştirilecek.
 
